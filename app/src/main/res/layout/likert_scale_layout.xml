@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="30dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/question_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="@string/q1_boredom_state"
+        android:textColor="@color/black" />
+
+    <RadioGroup
+        android:id="@+id/options"
+        android:layout_width="385dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="@+id/textView3">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/likert_scale_StronglyDisagree"
+            app:layout_constraintEnd_toStartOf="@+id/strongly_disagree"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_conversion_absoluteHeight="20dp"
+            tools:layout_conversion_absoluteWidth="90dp"
+            tools:layout_editor_absoluteY="1dp" />
+        <RadioButton
+            android:id="@+id/strongly_disagree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="#00FFFFFF"
+            app:layout_constraintEnd_toStartOf="@+id/disagree"
+            app:layout_constraintStart_toEndOf="@+id/textView2"
+            tools:layout_conversion_absoluteHeight="32dp"
+            tools:layout_conversion_absoluteWidth="40dp"
+            tools:layout_editor_absoluteY="7dp" />
+        <RadioButton
+            android:id="@+id/disagree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textColor="#00FFFFFF"
+            app:layout_constraintEnd_toStartOf="@+id/neutral"
+            app:layout_constraintStart_toEndOf="@+id/strongly_disagree"
+            tools:layout_conversion_absoluteHeight="32dp"
+            tools:layout_conversion_absoluteWidth="40dp"
+            tools:layout_editor_absoluteY="7dp" />
+        <RadioButton
+            android:id="@+id/neutral"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textColor="#00FFFFFF"
+            app:layout_constraintEnd_toStartOf="@+id/agree"
+            app:layout_constraintStart_toEndOf="@+id/disagree"
+            tools:layout_conversion_absoluteHeight="32dp"
+            tools:layout_conversion_absoluteWidth="40dp"
+            tools:layout_editor_absoluteY="7dp" />
+        <RadioButton
+            android:id="@+id/agree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textColor="#00FFFFFF"
+            app:layout_constraintEnd_toStartOf="@+id/strongly_agree"
+            app:layout_constraintStart_toEndOf="@+id/neutral"
+            tools:layout_conversion_absoluteHeight="32dp"
+            tools:layout_conversion_absoluteWidth="40dp"
+            tools:layout_editor_absoluteY="7dp" />
+        <RadioButton
+            android:id="@+id/strongly_agree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:textColor="#00FFFFFF"
+            app:layout_constraintEnd_toStartOf="@+id/textView3"
+            app:layout_constraintStart_toEndOf="@+id/agree"
+            tools:layout_conversion_absoluteHeight="32dp"
+            tools:layout_conversion_absoluteWidth="40dp"
+            tools:layout_editor_absoluteY="7dp" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/likert_scale_StronglyAgree"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/strongly_agree"
+            tools:layout_conversion_absoluteHeight="20dp"
+            tools:layout_conversion_absoluteWidth="90dp"
+            tools:layout_editor_absoluteY="1dp" />
+    </RadioGroup>
+
+</LinearLayout>

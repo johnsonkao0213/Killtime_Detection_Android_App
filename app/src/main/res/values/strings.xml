@@ -1,0 +1,259 @@
+<!--
+  ~ Copyright (c) 2016.
+  ~
+  ~ DReflect and Minuku Libraries by Shriti Raj (shritir@umich.edu) and Neeraj Kumar(neerajk@uci.edu) is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+  ~ Based on a work at https://github.com/Shriti-UCI/Minuku-2.
+  ~
+  ~
+  ~ You are free to (only if you meet the terms mentioned below) :
+  ~
+  ~ Share — copy and redistribute the material in any medium or format
+  ~ Adapt — remix, transform, and build upon the material
+  ~
+  ~ The licensor cannot revoke these freedoms as long as you follow the license terms.
+  ~
+  ~ Under the following terms:
+  ~
+  ~ Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+  ~ NonCommercial — You may not use the material for commercial purposes.
+  ~ ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+  ~ No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+  -->
+
+<resources>
+    <!--  current_task: PART ESM CAR  -->
+
+    <string name="no_activity">unknow</string>
+
+    <string name="app_name">Habits App</string>
+    <string name="ok">OK</string>
+    <!-- OAuth Format -->
+    <string name="oauth2_format" translatable="false">oauth2:%s</string>
+
+
+    <string name="text_unlebaled_title">Unlabeled</string>
+    <string name="text_overview_title">Overview</string>
+
+
+    <string-array name="prompt_missed_reasons_arrays">
+        <item>I didn\'t get time</item>
+        <item>I was too low and tired!</item>
+        <item>I don\'t give a damn!</item>
+    </string-array>
+
+
+    <!-- menu item-->
+    <string name="refresh">refresh</string>
+    <string name="upload">upload</string>
+    <string name="delete">delete</string>
+    <string name="deviceId">Show device id</string>
+    <string name="preference">Recording time preference</string>
+    <string name="newspreference">news preference</string>
+    <string name="networkpreference">Network preference</string>
+    <string name="text_set_alarm">reminder setting</string>
+    <string name="killtime">kill_time</string>
+    <string name="non_killtime">non kill time</string>
+
+    <!-- label item -->
+    <string name="str_killtime">殺時間且有空看通知</string>
+    <string name="str_killtime_busy">殺時間但沒空看通知</string>
+    <string name="str_nonkilltime">非殺時間但可以看通知</string>
+    <string name="str_nonkilltime_busy">非殺時間也無法看通知</string>
+
+    <!-- survey -->
+    <string name="xcontinue">Continue</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <string name="finish">Finish</string>
+    <string name="end_message">Thank you for having the time to take our survey.</string>
+    <string name="intro_message">&lt;strong&gt;Your feedback helps us to build a better product.&lt;/strong&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt; Hello, today you ignore some notifications, please tell us why they were ignored.&lt;br&gt;&lt;br&gt;It will take less than 1 minutes to answer the questions.</string>
+    <string name="description_message"> Please tell us why the notification is ignored at  </string>
+    <string name="description_message1"> . </string>
+
+
+    <string name="survey_context_title">"請針對當時的<b>"情境"</b>回答以下問題："</string>
+
+
+    <!-- preference -->
+    <string name="prefKey_recording_start" translatable="false">prefKey_recording_start</string>
+    <string name="prefKey_recording_end" translatable="false">prefKey_recording_end</string>
+
+    <string name="prefTitle_recording_start">The starting time of the recording</string>
+    <string name="prefTitle_recording_end">The ending time of the recording</string>
+    <string name="preferences_category_active_time">The time interval for recording screenshots</string>
+    <string name="loading">loading\u2026</string>
+    <string name="cd_arrow_icon" translatable="false">Arrow icon</string>
+
+    <string name="send_mail">Send emails</string>
+    <string name="can_upload">Uploadable</string>
+    <string name="cannot_upload">Not uploadable</string>
+
+    <string name="start_to_upload">Confirm and upload</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="survey_content_title">Please respond to each question indicating how you feel right now about yourself and your life, even if it is different from how you usually feel.</string>
+    <string name="q1_boredom_state">Time was passing by slower than usual.</string>
+    <string name="q2_boredom_state">I was easily distracted at that time.</string>
+    <string name="q3_boredom_state">I seemed to be forced to do things that had no value to me.</string>
+    <string name="q4_boredom_state">I felt bored.</string>
+    <string name="q5_boredom_state">I was wasting time that would be better spent on something else."</string>
+    <string name="q6_boredom_state">My mind was wandering.</string>
+    <string name="q7_boredom_state">I wanted something to happen but I was not sure what.</string>
+    <string name="q8_boredom_state">I felt like I was sitting around waiting for something to happen.</string>
+    <string name="sam_title">When you started using the smartphone, how did you feel?</string>
+    <string name="intention_mustdo">現在必須處理事情、聯絡他人</string>
+    <string name="intention_emotions">轉換心情、拋開負面情緒</string>
+    <string name="intention_productivity">讓自己感到有生產力，達成自己的目標</string>
+    <string name="intention_time">讓時間快一點地度過</string>
+    <string name="intention_curiosity">好奇地查看任何資訊和訊息</string>
+    <string name="intention_habits">只是習慣性地使用手機</string>
+    <string name="intention_mustdo_short">Necessity</string>
+    <string name="intention_emotions_short">Emotions</string>
+    <string name="intention_productivity_short">Productivity</string>
+    <string name="intention_time_short">Acceleration</string>
+    <string name="intention_curiosity_short">Browsing</string>
+    <string name="intention_habits_short">Habits</string>
+    <string name="intention_title">Why did you check the phone now?</string>
+    <string name="notifyStateSurveyTitle">Please complete the survey.</string>
+    <string name="likert_scale_StronglyDisagree">Strongly Disagree</string>
+    <string name="likert_scale_StronglyAgree">Strongly Agree</string>
+    <string name="unanswered">There are unfinished questions.</string>
+    <string name="survey_completed">Complete and Submit</string>
+    <string name="survey_thanks">Thank you for responding to the survey.</string>
+    <string name="survey_next">Next Page</string>
+    <string name="countsESMAllStateSurvey">The number of Full Survey you have answered:  %1$d</string>
+    <string name="countsESMAllIntentionSurvey">The number of Short Survey you have answered:  %1$d</string>
+    <string name="survey_notes">Enter your comments here</string>
+    <string name="title_activity_context">Did you have activities immediately before or after using it, or were you in the middle of an activity?</string>
+    <string name="activity_context_succeeding">There were no activities earlier, but there was an activity later on.</string>
+    <string name="activity_context_within">In the middle of an activity.</string>
+    <string name="activity_context_preceding">There was an activity earlier, but there were no activities later on.</string>
+    <string name="activity_context_none">No activities other than using the phone before or after.</string>
+    <string name="activity_context_between">Between two different activities.</string>
+    <string name="title_otherfactors">Please answer the following questions:</string>
+    <string name="title_locations">2. Where did I use my smartphone?</string>
+    <string name="options_locations1">Home</string>
+    <string name="options_locations2">Work / school</string>
+    <string name="options_locations3">In transit</string>
+    <string name="options_locations4">Outdoors</string>
+    <string name="options_others">Other</string>
+    <string name="title_social_context">When you started using the smartphone, who were you with?</string>
+    <string name="options_social_context1">Alone</string>
+    <string name="options_social_context2">With my family</string>
+    <string name="options_social_context3">With friends</string>
+    <string name="options_social_context4">With strangers</string>
+    <string name="title_busyness">4. I feel busy.</string>
+    <string name="title_perceived_privacy">5. The smartphone provides me with privacy in this place.</string>
+    <string name="title_social_norms">6. I feel the social norms or consensus of the place I am in are binding.</string>
+    <string name="upload_Confirmed">Confirmed:</string>
+    <string name="upload_Unconfirmed">Not confirmed:</string>
+    <string name="upload_canupload">Uploadable:</string>
+    <string name="upload_donotupload">Not uploadable:</string>
+    <string name="upload_selectall">Select All</string>
+    <string name="main_screenshot_reminder">There are still screenshots that need to be annotated.</string>
+    <string name="main_uploading">[Uploading]</string>
+    <string name="main_data_plan">Is your mobile data plan unlimited?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="main_uploadwithWifi">Please connect to a Wi-Fi network to upload the data.</string>
+    <string name="main_waitingforupload">Waiting for upload...</string>
+    <string name="main_wificonnection">Please keep the Wi-Fi connection.</string>
+    <string name="main_unlabeled">Unlabeled:</string>
+    <string name="main_labeled">Labeled:</string>
+    <string name="main_unuploadcounts">"There are %1$d  background data entries. "</string>
+    <string name="go_to_label">Go To Label</string>
+    <string name="today">Today</string>
+    <string name="Monday">Mon</string>
+    <string name="Tuesday">Tue</string>
+    <string name="Wednesday">Wed</string>
+    <string name="Thursday">Thu</string>
+    <string name="Friday">Fri</string>
+    <string name="Saturday">Sat</string>
+    <string name="Sunday">Sun</string>
+    <string name="fragment_network_preference">Please select the network option for uploading data. If you choose to use \'Wi-Fi only\', make sure you are connected to Wi-Fi long enough to upload the data. If your mobile data plan is unlimited, please select \'Mobile Data + Wi-Fi\'.</string>
+    <string name="Mobile_WiFi">Mobile Data + Wi-Fi</string>
+    <string name="WifiOnly">Wi-Fi only</string>
+    <string name="menu_testing">Test Settings</string>
+    <string name="upload_reminder">Please remember to label all the images and complete the upload process!</string>
+    <string name="reminder_title">Important message!</string>
+    <string name="error_message">The app has encountered an error. Please force close and restart it. Thank you.</string>
+    <string name="ongoing_message">%1$s  is running.</string>
+    <string name="upload_completed">Upload completed!</string>
+    <string name="uploading_images">Uploading images</string>
+    <string name="cancel">Cancel</string>
+    <string name="double_check">Are you sure you want to label these screenshots as \"%1$s\" ?</string>
+    <string name="unmarked_images">There are unmarked images. Please label them and try again.</string>
+    <string name="notification_permission">Notification permissions</string>
+    <string name="notification_permissions_message">Please allow %1$s notification permissions.</string>
+    <string name="allow">Allow</string>
+    <string name="change_labels">Change labels</string>
+    <string name="upload_screenshots">Upload screenshots</string>
+    <string name="privacy_unclassifiable">Privacy or Unclassifiable</string>
+    <string name="ask_upload_images">"<![CDATA[You are allowed to upload %1$d screenshots, and a total of %2$d screenshots have been labeled.\n\nPlease note that we will only upload the labeled screenshots, and once the upload is complete, all photos will be automatically cleared.  \n\nAre you sure you're done and ready to start the upload?]]> "</string>
+    <string name="uploading_bar">[Uploading] Uploading %1$d  images, not uploading %2$d.</string>
+    <string name="main_uploading_success">[Upload Complete]</string>
+    <string name="uploaded_images">Upload completed for %1$s images.</string>
+    <string name="uploading_complete_bar">"<![CDATA[Upload Complete] Uploading %1$d images, not uploading %2$d images. \nUpload completed for 0 images.]]> "</string>
+    <string name="time_preference_reminder">There should be at least a 12-hour interval between start and end. Please reset it.</string>
+    <string name="survey_channel_name">Surveys</string>
+    <string name="ongoing_channel_name">Ongoing Reminder</string>
+    <string name="uploading_channel_name">Uploading Images Reminder</string>
+    <string name="uploading_background_channel_name">Uploading Background Data Reminder</string>
+    <string name="uploading_background">"Uploading background data "</string>
+    <string name="cannot_classify">Unidentifible</string>
+    <string name="test">test</string>
+    <string name="permission">Permission</string>
+    <string name="linkingTitle">When it was %1$s, your stated motivation for using the smartphone was: %2$s. Please answer the following questions based on that context.</string>
+    <string name="title_within">What was the ongoing activity?</string>
+    <string name="title_preceding">What was the preceding activity?</string>
+    <string name="title_succeeding">What will be the succeeding activity?</string>
+    <string name="timeout">Timeout</string>
+    <string name="timeout_message">Exceeded the survey completion time. Please complete it within %1$d minutes.</string>
+    <string name="exit_confirmation">Are you leaving this survey?</string>
+    <string name="activity_exercising">Exercising</string>
+    <string name="activity_eating">Eating</string>
+    <string name="activity_playing">Playing video games</string>
+    <string name="activity_reading">Reading or studying</string>
+    <string name="activity_daydreaming">Daydreaming</string>
+    <string name="activity_sleeping">Sleeping or resting</string>
+    <string name="activity_bathroom">Going to the bathroom</string>
+    <string name="activity_shower">Taking a shower</string>
+    <string name="activity_movies">Watching videos or movies</string>
+    <string name="activity_surfing">Surfing the net with PC</string>
+    <string name="activity_meeting">In a meeting</string>
+    <string name="activity_working">Working</string>
+    <string name="activity_class">In class</string>
+    <string name="activity_driving">Driving or riding scooter</string>
+    <string name="activity_transportation">Using transportation</string>
+    <string name="Activity_chatting">Chatting</string>
+    <string name="activity_forgot">I forgot</string>
+
+
+    <!--
+    <string name="pref_pref1" translatable="false">pref_pref1</string>
+    <string name="pref_pref2" translatable="false">pref_pref2</string>
+    <string name="pref_pref3" translatable="false">pref_pref3</string>
+    <string name="pref_pref4" translatable="false">pref_pref4</string>
+    <string name="preferences_category_one">Category 1</string>
+    <string name="preferences_category_two">Category 2</string>
+
+    <string name="preferences_switch_title">Switch Preference</string>
+    <string name="preferences_switch_summ">Switch Summary</string>
+
+    <string name="preferences_edittext_title">EditText Preference</string>
+    <string name="preferences_edittext_summ">EditText Summary</string>
+    <string name="preferences_edittext_default">Default value</string>
+    <string name="preferences_edittext_message">Dialog Message</string>
+
+    <string name="preferences_time_title">Time Preference</string>
+    <string name="preferences_time_summ">Time Summary</string>
+
+    <string name="preferences_checkbox_title">CheckBox Preference</string>
+    <string name="preferences_checkbox_summ">CheckBox Summary</string>
+
+    <string name="btn_custom">Button in custom layout</string>
+
+    -->
+
+
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!--
+
+    <androidx.preference.PreferenceCategory
+        android:title="@string/preferences_category_one">
+
+        <androidx.preference.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/pref_pref1"
+            android:summary="@string/preferences_switch_summ"
+            android:title="@string/preferences_switch_title"/>
+
+        <androidx.preference.EditTextPreference
+            android:defaultValue="@string/preferences_edittext_default"
+            android:dialogLayout="@layout/pref_dialog_edittext_fix"
+            android:dialogMessage="@string/preferences_edittext_message"
+            android:inputType="number"
+            android:key="@string/pref_pref2"
+            android:summary="@string/preferences_edittext_summ"
+            android:title="@string/preferences_edittext_title"/>
+
+        <androidx.preference.CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/pref_pref3"
+            android:summary="@string/preferences_checkbox_summ"
+            android:title="@string/preferences_checkbox_title"/>
+
+
+    </androidx.preference.PreferenceCategory>
+
+    -->
+
+    <androidx.preference.PreferenceCategory
+        android:title="@string/preferences_category_active_time">
+
+        <labelingStudy.nctu.boredom_detection.preference.TimePreference
+            style="@style/AppPreference.DialogPreference"
+            android:defaultValue="600"
+            android:key="@string/prefKey_recording_start"
+            android:summary=""
+            android:title="@string/prefTitle_recording_start"/>
+
+        <labelingStudy.nctu.boredom_detection.preference.TimePreference
+            style="@style/AppPreference.DialogPreference"
+            android:defaultValue="1320"
+            android:key="@string/prefKey_recording_end"
+            android:summary=""
+            android:title="@string/prefTitle_recording_end"/>
+
+    </androidx.preference.PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

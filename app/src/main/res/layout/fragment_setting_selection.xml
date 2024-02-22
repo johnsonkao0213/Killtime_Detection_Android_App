@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:text="Where to store the collected background data?" />
+    <RadioGroup
+        android:id="@+id/nw_rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        >
+        <RadioButton
+            android:id="@+id/rb_do_not_store"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:text="Do not store the data and screenshots."
+            />
+        <RadioButton
+            android:id="@+id/rb_local"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+
+            android:text="Store the data in the phone's storage space."
+            />
+
+        <RadioButton
+            android:id="@+id/rb_firebase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+
+            android:text="Store the data in the Firebase Database."
+            />
+
+
+
+
+    </RadioGroup>
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/nw_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        android:layout_margin="5dp"/>
+
+</LinearLayout>

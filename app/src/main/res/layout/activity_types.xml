@@ -1,0 +1,162 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="My Title" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/radioGroupColumn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/act1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_exercising" />
+
+            <RadioButton
+                android:id="@+id/act2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_eating" />
+
+            <RadioButton
+                android:id="@+id/act3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_playing" />
+
+            <RadioButton
+                android:id="@+id/act4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_reading" />
+
+            <RadioButton
+                android:id="@+id/act5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_daydreaming" />
+
+            <RadioButton
+                android:id="@+id/act6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_sleeping" />
+
+            <RadioButton
+                android:id="@+id/act7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_bathroom" />
+
+            <RadioButton
+                android:id="@+id/act8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_shower" />
+
+            <RadioButton
+                android:id="@+id/act9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_movies" />
+
+            <RadioButton
+                android:id="@+id/act10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_surfing" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/radioGroupColumn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/act11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_meeting" />
+
+            <RadioButton
+                android:id="@+id/act12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_working" />
+
+            <RadioButton
+                android:id="@+id/act13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_class" />
+
+            <RadioButton
+                android:id="@+id/act14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_driving" />
+
+            <RadioButton
+                android:id="@+id/act15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_transportation" />
+
+            <RadioButton
+                android:id="@+id/act16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Activity_chatting" />
+
+
+            <RadioButton
+                android:id="@+id/act20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_forgot" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/act21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/options_others" />
+
+                <EditText
+                    android:id="@+id/act21_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType=""
+                    android:text="" />
+            </LinearLayout>
+        </RadioGroup>
+
+    </LinearLayout>
+    <!-- Add more RadioGroups and questions as needed -->
+
+
+</LinearLayout>

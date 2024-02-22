@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="請問對於剛剛選取的截圖在被擷圖的當下，您正在做什麼事？"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+            <CheckBox
+                android:id="@+id/act1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="運動"
+                android:checked="false"/>
+            <CheckBox
+                android:id="@+id/act2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="吃飯"
+                android:checked="false" />
+            <CheckBox
+                android:id="@+id/act3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="玩遊戲"
+                android:checked="false" />
+            <CheckBox
+                android:id="@+id/act4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="讀書"
+                android:checked="false" />
+            <CheckBox
+                android:id="@+id/act5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="無聊放空"
+                android:checked="false" />
+            <CheckBox
+                android:id="@+id/act6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="睡覺、休息"
+                android:checked="false" />
+            <CheckBox
+                android:id="@+id/act7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上廁所"
+                android:checked="false" />
+            <CheckBox
+                android:id="@+id/act8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="洗澡"
+                android:checked="false" />
+
+            <CheckBox
+                android:id="@+id/act9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="看電視、影片"
+                android:checked="false" />
+            <CheckBox
+                android:id="@+id/act10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上網"
+                android:checked="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+            <CheckBox
+                android:id="@+id/act11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="開會"
+                android:checked="false" />
+            <CheckBox
+                android:id="@+id/act12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="工作、做正事"
+                android:checked="false" />
+            <CheckBox
+                android:id="@+id/act13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上課"
+                android:checked="false" />
+            <CheckBox
+                android:id="@+id/act14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="開車、騎機車"
+                android:checked="false" />
+            <CheckBox
+                android:id="@+id/act15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="通勤、移動中"
+                android:checked="false" />
+            <CheckBox
+                android:id="@+id/act16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="談話"
+                android:checked="false" />
+            <CheckBox
+                android:id="@+id/act17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="打電話"
+                android:checked="false" />
+            <CheckBox
+                android:id="@+id/act18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="使用通訊類型APP"
+                android:checked="false" />
+            <CheckBox
+                android:id="@+id/act19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="使用非通訊類型APP"
+                android:checked="false" />
+            <CheckBox
+                android:id="@+id/act20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="忘記了"
+                android:checked="false" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <CheckBox
+                    android:id="@+id/act21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="其他"
+                    android:checked="false" />
+
+                <EditText
+                    android:id="@+id/act21_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType=""
+                    android:text="" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/act_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="確認"
+        android:layout_margin="2dp"/>
+    <!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:id="@+id/act_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="取消"
+            android:layout_margin="2dp"/>
+
+    </LinearLayout>-->
+
+
+</LinearLayout>

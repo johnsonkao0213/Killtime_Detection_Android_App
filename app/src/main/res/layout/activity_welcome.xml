@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="6"
+    tools:context="labelingStudy.nctu.boredom_detection.controller.WelcomeActivity">
+
+    <TextView
+        android:id="@+id/guideline"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/cardview_light_background"
+        android:drawableBottom="@drawable/head"
+        android:paddingLeft="16dp"
+        android:paddingTop="20dp"
+        android:text="歡迎使用Minuku記錄您的移動路程"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+
+
+</LinearLayout>

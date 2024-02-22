@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_item_refresh"
+        android:title="@string/refresh"
+        android:icon="@drawable/ic_reload"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <!--
+    <item
+        android:id="@+id/menu_item_upload"
+        android:title="@string/upload">
+    </item>
+    -->
+    <item
+        android:id="@+id/menu_item_preference"
+        android:title="@string/preference">
+    </item>
+
+<!--    <item-->
+<!--        android:id="@+id/menu_item_preference_news"-->
+<!--        android:title="@string/newspreference">-->
+<!--    </item>-->
+
+    <item
+        android:id="@+id/menu_item_preference_network"
+        android:title="@string/networkpreference">
+    </item>
+
+    <item
+        android:id="@+id/menu_item_devoice_id"
+        android:title="@string/deviceId">
+    </item>
+
+<!--    <item-->
+<!--        android:id="@+id/menu_item_send_mail"-->
+<!--        android:title="@string/send_mail">-->
+<!--    </item>-->
+
+    <item
+        android:id="@+id/menu_item_test_settings"
+        android:title="@string/menu_testing">
+    </item>
+</menu>

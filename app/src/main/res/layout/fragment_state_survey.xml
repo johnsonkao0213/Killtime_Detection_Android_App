@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:paddingBottom="70dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginBottom="5pt"-->
+<!--                android:layout_marginLeft="5pt"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginBottom="10dp"-->
+<!--                    android:text="@string/survey_content_title"-->
+<!--                    android:textColor="@color/black" />-->
+<!--            </LinearLayout>-->
+            <!-- Likert Scale 1 -->
+            <include layout="@layout/likert_scale_layout" android:id="@+id/q1" />
+            <include layout="@layout/likert_scale_layout" android:id="@+id/q2" />
+            <include layout="@layout/likert_scale_layout" android:id="@+id/q3" />
+            <include layout="@layout/likert_scale_layout" android:id="@+id/q4" />
+            <include layout="@layout/likert_scale_layout" android:id="@+id/q5" />
+            <include layout="@layout/likert_scale_layout" android:id="@+id/q6" />
+            <include layout="@layout/likert_scale_layout" android:id="@+id/q7" />
+            <include layout="@layout/likert_scale_layout" android:id="@+id/q8" />
+
+            <!-- Likert Scale 2 -->
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button_continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/survey_next"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp" />
+
+</RelativeLayout>
